@@ -1,1 +1,11 @@
-This is a Javascript framework that enables Shaking your iOs Device
+This is a Javascript framework that enables you to attach a function to a "Shake Event"
+for devices with iOS 4.2+
+
+STILL UNDER DEVELOPMENT
+
+
+Usage:
+
+$(document).ready(function() {
+    $(this).gShake();
+});
