@@ -1,5 +1,7 @@
 $(document).ready(function() {
 	
-	$(this).gShake();
+	$(this).gShake(function() {
+		alert("function loaded from document")
+	});
 	
 });
